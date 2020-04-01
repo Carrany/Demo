@@ -1,0 +1,11 @@
+.ant-layout-sider {
+    /* flex: 0 0 256px !important;
+    max-width: 256px !important;
+    min-width: 256px !important;
+    width: 256px !important; */
+}
+.rightContainer {
+    display: flex;
+    align-items: center;
+    line-height: 72px;
+  }

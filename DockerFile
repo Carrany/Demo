@@ -1,0 +1,13 @@
+# base image
+FROM node:alpine
+
+# set working directory
+WORKDIR /app
+
+# install and cache app dependencies
+COPY package.json .
+RUN yarn install
+COPY ..
+
+# start app
+CMD ["yarn", "start"]
